@@ -1,8 +1,8 @@
 # Create method `parrot` that outputs a iven phrase and
 # returns the phrase
 
-phrase = "Pretty bird!"
-def parrot (*phrase="Squawk!")
-  puts phrase
 
+def parrot (*string="Squawk!")
+  puts string
+  string
 end
